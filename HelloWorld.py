@@ -4,7 +4,7 @@ labels=[0,0,1,1,0]
 
 clf = tree.DecisionTreeClassifier()
 clf=clf.fit(features,labels)
-print clf.predict([[150,0]])
+print clf.predict([[155,0]])
 print clf.predict([[146,0]])
 
 
